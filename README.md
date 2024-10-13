@@ -26,8 +26,10 @@ https://osf.io/5azde/?view_only=cf103519a4454286becf5699f85bd77b
 https://huggingface.co/datasets/ComplexDataLab/Misinfo_Dataset/tree/main
 
 # post-processing
-One issue found with the method above is that due to unknown reason, the veracity column has "True, False, true, false". Therefore, an addition script has been written to map True to true and False to false
-misinfo_veracitymapping.py
+One issue found with the method above is that due to unknown reason, the veracity column has "True, False, true, false". Therefore, an addition script, misinfo_veracitymapping.py, has been written to map True to true and False to false
+
+
+processinghuggingface.py was also created to split the entire dataset into subsets based on each individual dataset. Credits to [Taylor](https://github.com/taylorlynn)
 
 ![image](https://github.com/user-attachments/assets/19da7189-892d-469c-be88-05246f07fa79)
 

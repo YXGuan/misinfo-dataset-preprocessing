@@ -3,7 +3,7 @@
 ## Why doing this?
 we want to achieve a few things during the data set preprocessing:
 1. The veracity mapping:  0 --> True 1--> False etc
-2. The "Veracity" column will be re-ordered to the 2nd, the rest of the columns will
+2. The "Veracity" column will be re-ordered to the 2nd
 3. Converting all the "null" to "na" and all data to string type
 4. Making the "split" column evenly distributed
 5. Converting from csv to parquet
